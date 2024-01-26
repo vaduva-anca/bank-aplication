@@ -1,0 +1,6 @@
+projectKey=bank-app
+serverUrl=http://localhost:9000
+serverVersion=10.2.1.78527
+dashboardUrl=http://localhost:9000/dashboard?id=bank-app
+ceTaskId=AY1FdyD4Bp8TL9Amml1L
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AY1FdyD4Bp8TL9Amml1L

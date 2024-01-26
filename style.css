@@ -1,8 +1,3 @@
-/*
- * Use this CSS to learn some intersting techniques,
- * in case you're wondering how I built the UI.
- * Have fun! 😁
- */
 
 * {
   margin: 0;
@@ -212,13 +207,16 @@ nav {
   color: #333;
 }
 
-.operation--transfer {
-  background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+.operation--transfer--color1 {
+  background-color:#f8e911;
+}
+.operation--transfer--color2 {
+  background-color:#30a2c5;
+}
+.operation--transfer--color3 {
+  background-color:#57b418;
 }
 
-.operation--loan {
-  background-image: linear-gradient(to top left, #39b385, #9be15d);
-}
 
 .operation--close {
   background-image: linear-gradient(to top left, #e52a5a, #ff585f);
@@ -293,4 +291,25 @@ h2 {
 
 .timer {
   font-weight: 600;
+}
+
+.operation--loan{
+  background: none;
+  display:flex;
+  justify-content: center;
+}
+
+.operation--loan button{
+  background-color: red;
+  border-radius:15px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+
 }
